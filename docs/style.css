@@ -1,23 +1,43 @@
 html,
-    /*
-    Generic Page CSS Styles
-    */
 body {
     height: 100%;
     background-color: #252526;
+    margin: 0;
 }
 
-.NavBarTitle {
-    font-size: 20pt;
+.top_button {
+    background-color: #ff7257;
 }
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top;
+    background-color: #252526;
 }
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+.lower_portion {
+    border: #252526;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.white_text {
+    color: white;
+}
+
+.recent_news_box {
+    background-color: #ff7257;
+    border-radius: 7px 7px 7px 7px;
+}
+.current_areas_box {
+    width: 100px;
+    border: #ff7257;
+    background-color: #ff7257;
 }
 
