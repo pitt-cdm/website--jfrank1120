@@ -5,8 +5,13 @@ body {
     margin: 0;
 }
 
-.top_button {
+.nav_btn {
     background-color: #ff7257;
+    padding-left: 15px;
+}
+.link_text:hover {
+    color: white;
+    font-style: normal;
 }
 
 .navbar .navbar-nav {
@@ -36,8 +41,11 @@ body {
     border-radius: 7px 7px 7px 7px;
 }
 .current_areas_box {
-    width: 100px;
-    border: #ff7257;
     background-color: #ff7257;
+    border-radius: 7px 7px 7px 7px;
+}
+.sponsors_box {
+    background-color: #ff7257;
+    border-radius: 7px 7px 7px 7px;
 }
 
