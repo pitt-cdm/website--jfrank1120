@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca34dca9-539c-4ae6-92e5-ebf5b44407b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Pages/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pages/AboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Pages/Information.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pages/Information.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+            <state relative-caret-position="403">
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -44,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Pages/Information.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="406">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -62,9 +60,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docs/index.html" />
-        <option value="$PROJECT_DIR$/docs/style.css" />
         <option value="$PROJECT_DIR$/docs/Pages/AboutUs.html" />
         <option value="$PROJECT_DIR$/docs/Pages/Information.html" />
+        <option value="$PROJECT_DIR$/docs/style.css" />
       </list>
     </option>
   </component>
@@ -138,12 +136,12 @@
       <workItem from="1551799644391" duration="1697000" />
       <workItem from="1553002498790" duration="229000" />
       <workItem from="1553002923049" duration="4975000" />
-      <workItem from="1553127414081" duration="7203000" />
+      <workItem from="1553127414081" duration="7340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14104000" />
+    <option name="totallyTimeSpent" value="14241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="868" height="928" extended-state="0" />
@@ -172,13 +170,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -195,8 +186,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/Pages/Information.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="406">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
         </state>
       </provider>
     </entry>
