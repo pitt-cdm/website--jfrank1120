@@ -7,7 +7,11 @@ body {
 
 .nav_btn {
     background-color: #ff7257;
-    padding-left: 15px;
+    padding-left: 12px;
+    border: none;
+}
+.nav_btn:focus {
+    outline: 0;
 }
 .link_text:hover {
     color: white;
@@ -63,4 +67,7 @@ body {
 .main_page_img {
     display: block;
     margin: auto;
+}
+.copy_right {
+
 }
