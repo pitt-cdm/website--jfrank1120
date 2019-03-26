@@ -7,6 +7,11 @@ $(document).ready(function () {
     console.log("Run through hover");
     // Clicking on Image of Jared directs to personal site
     $('#jared_img').click(function () {
-        window.location.replace("http://jaredfrank.me/");
-    })
+        var modal = document.getElementById('jaredModal');
+        modal.style.display = 'block';
+    });
+    $('.close').click(function () {
+       var modal = document.getElementById('jaredModal');
+       modal.style.display = 'none';
+    });
 }); // End Ready function
