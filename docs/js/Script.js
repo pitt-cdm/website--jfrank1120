@@ -1,17 +1,20 @@
 $(document).ready(function () {
+    // Confirm that the script is connected to the web-page
     console.log("Script Loaded");
+    // Attempting to change the height of the twitter feed
     $('#test_id').click(function () {
         $('#twitter_feed').data('data-height', '1000');
         console.log("Attempted to change height")
     });
-    console.log("Run through hover");
-    // Clicking on Image of Jared directs to personal site
+
+    // Clicking on Jared Image on About Us will bring up Modal
     $('#jared_img').click(function () {
-        var modal = document.getElementById('jaredModal');
+        let modal = document.getElementById('jaredModal');
         modal.style.display = 'block';
     });
+    // Code for closing modal once it has appeared
     $('.close').click(function () {
-       var modal = document.getElementById('jaredModal');
-       modal.style.display = 'none';
+        let modal = document.getElementById('jaredModal');
+        modal.style.display = 'none';
     });
 }); // End Ready function
