@@ -16,7 +16,7 @@
     <body>
     <div class="main_div container">
         <!-- Navigation bar at the top of the page -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar">
             <ul class="nav btn-lg">
                 <button class="btn-lg nav_btn"><a class="white_text link_text" href="#"> Home </a></button>
             </ul>
@@ -35,9 +35,8 @@
 
         <!-- Center logo in the middle of the page -->
         <div class="text-center main_box">
-            <h1 class="white_text"> CrowdSound Information Page</h1>
             <br>
-            <img src="Images/Logo%202.png" width="325" alt="CrowdSound Logo">
+            <img src="Images/Logo%202.png" width="450" alt="CrowdSound Logo">
         </div>
         <br>
         <br>
@@ -46,24 +45,34 @@
         <div class="lower_portion row">
             <!-- Bottom Left Side Panel -->
             <div class="col-sm-4">
-                <h3 class="center_text white_text"> Recent News </h3>
+                <h3 id="test_id" class="center_text white_text"> Recent News </h3>
                 <div class="recent_news_box">
-                    <p class="center_text white_text"> Test that this text appears </p>
+                    <a  id="twitter_feed" class="twitter-timeline col-sm-4" data-height="200" data-theme="dark" href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw">Tweets by Spotify</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
 
             <!-- Bottom Middle Panel -->
             <div class="col-sm-4 univ_area">
                 <h3 class="center_text white_text"> Current Universities </h3>
-                <div class="current_areas_box">
+                <div id="info_id" class="current_areas_box">
                     <ul class="no_bullet">
                         <li class="white_text school_bullet">
                             University of Pittsburgh
                         </li>
-                        <li class="white_text">
+                        <li class="white_text school_bullet">
                             Carnegie Mellon University
                         </li>
-                        <li class="white_text">
+                        <li class="white_text school_bullet">
+                            Duquesne University
+                        </li>
+                        <li class="white_text school_bullet">
+                            Point Park University
+                        </li>
+                        <li class="white_text school_bullet">
+                            Laroche College
+                        </li>
+                        <li class="white_text school_bullet">
                             Duquesne University
                         </li>
                     </ul>
@@ -77,11 +86,9 @@
                     <p class="center_text white_text"> Here are our sponsors!!</p>
                 </div>
             </div>
-            <div>
-                <p class="copy_right mt-5 text-muted"> Jared Frank © 2019-2020 </p>
-            </div>
         </div>
     </div>
+    <br>
 
         <!-- Optional JavaScript -->
         <!-- jQuery, Popper.js, Bootstrap -->
