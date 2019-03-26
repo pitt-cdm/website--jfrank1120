@@ -57,7 +57,6 @@ body {
     padding: 5px;
     background-color: gray;
     border-radius: 10px 10px 10px 10px;
-
 }
 .image_in_div {
     border: 6px solid #b3b3b3;
@@ -69,5 +68,14 @@ body {
     margin: auto;
 }
 .copy_right {
+
+}
+.univ_area {
+    padding-right: 20px;
+}
+.no_bullet {
+    list-style-type: none;
+}
+#info_id.minus {
 
 }
