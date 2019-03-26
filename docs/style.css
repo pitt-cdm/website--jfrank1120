@@ -86,3 +86,7 @@ body {
     border-radius: 10px 10px 10px 10px;
     border-width: 10px;
 }
+.close {
+    height: 100px;
+    width: 100px;
+}
