@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    background-color: #252526;
+    background-color: #7e838c;
     margin: 0;
 }
 
@@ -29,11 +29,11 @@ body {
     */
 }
 .navbar {
-    background-color: gray;
+    background-color: #d2d6dd;
     border-radius: 7px 7px 7px 7px;
 }
 .lower_portion {
-    border: 8px solid gray;
+    border: 8px solid #d2d6dd;
     padding: 15px;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 .info_box {
     padding: 5px;
-    background-color: gray;
+    background-color: #606163;
     border-radius: 10px 10px 10px 10px;
 }
 .image_in_div {
