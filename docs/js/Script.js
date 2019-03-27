@@ -8,7 +8,7 @@ $(document).ready(function () {
     });
 
     // Clicking on Jared Image on About Us will bring up Modal
-    $('#jared_img').click(function () {
+    $('#overlay_icon').click(function () {
         let modal = document.getElementById('jaredModal');
         modal.style.display = 'block';
     });
