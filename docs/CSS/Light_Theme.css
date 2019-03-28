@@ -14,7 +14,7 @@ body {
     outline: 0;
 }
 .link_text:hover {
-    color: white;
+    color: inherit;
     font-style: normal;
     text-decoration: none;
 }
@@ -24,9 +24,6 @@ body {
     float: none;
     vertical-align: top;
     background-color: #b3b3b3;
-    /*
-    background-color: #252526;
-    */
 }
 .navbar {
     background-color: #d2d6dd;
