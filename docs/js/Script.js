@@ -1,6 +1,18 @@
 $(document).ready(function () {
     // Confirm that the script is connected to the web-page
     console.log("Script Loaded");
+    console.log(sessionStorage.getItem("CSS"));
+    /*
+    if (sessionStorage.getItem("CSS") === "Dark_Theme") {
+        try {
+            $("#style_link").attr("href", "CSS/Dark_Theme.css");
+        } catch (err) {
+
+        } finally {
+            $("#style_link").attr("href", "../CSS/Dark_Theme.css");
+        }
+    }
+    */
     // Attempting to change the height of the twitter feed
     $('#test_id').click(function () {
         $('#twitter_feed').data('data-height', '1000');
@@ -25,6 +37,11 @@ $(document).ready(function () {
         if (curr_theme === "CSS/Dark_Theme.css") {
             // If it's Dark Theme, switch it
             $("#style_link").attr("href", "CSS/Light_Theme.css");
+            // Setting session storage to light-theme
+            /*
+            sessionStorage.removeItem("CSS");
+            sessionStorage.setItem("CSS", "Light_Theme");
+            */
             // Changing Twitter Theme
             /*
             $("#twitter_feed").remove();
@@ -34,6 +51,11 @@ $(document).ready(function () {
         } else if (curr_theme === "CSS/Light_Theme.css") {
             // If its Light Theme, switch it
             $("#style_link").attr("href", "CSS/Dark_Theme.css");
+            // Setting session storage to dark-theme
+            /*
+            sessionStorage.removeItem("CSS");
+            sessionStorage.setItem("CSS", "Dark_Theme");
+            */
             // Changing Twitter Theme
             /*
             $("#twitter_feed").remove();
@@ -42,8 +64,16 @@ $(document).ready(function () {
         } else if (curr_theme === "../CSS/Dark_Theme.css") {
             // Check to see if the reference has '..' in it
             $("#style_link").attr("href", "../CSS/Light_Theme.css");
+            sessionStorage.removeItem("CSS");
+            sessionStorage.setItem("CSS", "../Light_Theme");
         } else if (curr_theme === "../CSS/Light_Theme.css"){
+            // Changing Theme
             $("#style_link").attr("href", "../CSS/Dark_Theme.css");
+            // Setting session storage to dark theme
+            /*
+            sessionStorage.removeItem("CSS");
+            sessionStorage.setItem("CSS", "Dark_Theme");
+            */
         }
     });
 
