@@ -1,0 +1,154 @@
+html,
+body {
+    height: 100%;
+    background-color: #7e838c;
+    margin: 0;
+}
+
+.nav_btn {
+    background-color: #3dbdd0;
+    padding-left: 12px;
+    border: none;
+}
+.nav_btn:focus {
+    outline: 0;
+}
+.link_text:hover {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    background-color: #b3b3b3;
+    /*
+    background-color: #252526;
+    */
+}
+.navbar {
+    background-color: #d2d6dd;
+    border-radius: 7px 7px 7px 7px;
+}
+.lower_portion {
+    border: 8px solid #d2d6dd;
+    padding: 15px;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.white_text {
+    color: white;
+}
+
+.recent_news_box {
+    background-color: #3dbdd0;
+    border-radius: 7px 7px 7px 7px;
+    height: 200px;
+}
+.twitter-timeline {
+    height: 500px;
+}
+.current_areas_box {
+    background-color: #3dbdd0;
+    border-radius: 7px 7px 7px 7px;
+}
+.sponsors_box {
+    background-color: #3dbdd0;
+    border-radius: 7px 7px 7px 7px;
+}
+.info_box {
+    padding: 5px;
+    background-color: #606163;
+    border-radius: 10px 10px 10px 10px;
+}
+.image_in_div {
+    border: 6px solid #b3b3b3;
+    display: block;
+    margin: auto;
+}
+.main_page_img {
+    display: block;
+    margin: auto;
+}
+.univ_area {
+    padding-right: 20px;
+}
+.no_bullet {
+    list-style-type: none;
+}
+.title_text {
+    background-color: #3dbdd0;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 10px;
+}
+.close {
+    height: 100px;
+    width: 100px;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+    height: 100%;
+    width: 400px;
+    opacity: 0;
+    transition: .3s ease;
+}
+/* When you mouse over the container, fade in the overlay icon*/
+.container:hover .overlay {
+    opacity: 1;
+}
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* When you move the mouse over the icon, change color */
+.fa-info:hover {
+    color: #eee;
+}
+/* Code for Accordion on Information Page */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}

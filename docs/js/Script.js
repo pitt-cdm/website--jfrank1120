@@ -17,6 +17,24 @@ $(document).ready(function () {
         let modal = document.getElementById('jaredModal');
         modal.style.display = 'none';
     });
+    // Code for Switching Themes via CSS Sheets
+    $("#theme_btn").click(function () {
+        // Get the current theme for the page
+        let curr_theme = $("#style_link").attr("href");
+        // Check if the theme is dark
+        if (curr_theme === "CSS/Dark_Theme.css") {
+            // If it's Dark Theme, switch it
+            $("#style_link").attr("href", "CSS/Light_Theme.css");
+        } else if (curr_theme === "CSS/Light_Theme.css") {
+            // If its Light Theme, switch it
+            $("#style_link").attr("href", "CSS/Dark_Theme.css");
+        } else if (curr_theme === "../CSS/Dark_Theme.css") {
+            // Check to see if the reference has '..' in it
+            $("#style_link").attr("href", "../CSS/Light_Theme.css");
+        } else if (curr_theme === "../CSS/Light_Theme.css"){
+            $("#style_link").attr("href", "../CSS/Dark_Theme.css");
+        }
+    });
 
     // Accordion Code
     var acc = document.getElementsByClassName("accordion");

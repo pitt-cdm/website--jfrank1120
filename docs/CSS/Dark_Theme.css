@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    background-color: #7e838c;
+    background-color: #252526;
     margin: 0;
 }
 
@@ -29,11 +29,11 @@ body {
     */
 }
 .navbar {
-    background-color: #d2d6dd;
+    background-color: gray;
     border-radius: 7px 7px 7px 7px;
 }
 .lower_portion {
-    border: 8px solid #d2d6dd;
+    border: 8px solid gray;
     padding: 15px;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 .info_box {
     padding: 5px;
-    background-color: #606163;
+    background-color: gray;
     border-radius: 10px 10px 10px 10px;
 }
 .image_in_div {
@@ -82,7 +82,7 @@ body {
     list-style-type: none;
 }
 .title_text {
-    background-color: #3dbdd0;
+    background-color: #ff7257;
     border-radius: 10px 10px 10px 10px;
     border-width: 10px;
 }
