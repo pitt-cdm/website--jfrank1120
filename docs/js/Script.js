@@ -25,9 +25,20 @@ $(document).ready(function () {
         if (curr_theme === "CSS/Dark_Theme.css") {
             // If it's Dark Theme, switch it
             $("#style_link").attr("href", "CSS/Light_Theme.css");
+            // Changing Twitter Theme
+            /*
+            $("#twitter_feed").remove();
+            $(".recent_news_box").append('<a id="twitter_feed" class="twitter-timeline col-sm-4" data-height="400" data-theme="dark" href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw"></a>');
+            console.log("Attempted to add feed back in");
+            */
         } else if (curr_theme === "CSS/Light_Theme.css") {
             // If its Light Theme, switch it
             $("#style_link").attr("href", "CSS/Dark_Theme.css");
+            // Changing Twitter Theme
+            /*
+            $("#twitter_feed").remove();
+            $(".recent_news_box").wrapInner('<a id="twitter_feed" class="twitter-timeline col-sm-4" data-height="400" data-theme="light" href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw"></a>');
+            */
         } else if (curr_theme === "../CSS/Dark_Theme.css") {
             // Check to see if the reference has '..' in it
             $("#style_link").attr("href", "../CSS/Light_Theme.css");
